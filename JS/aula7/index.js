@@ -1,4 +1,6 @@
 const nome = 'João';
+nome = 'Otavio';
+
 
 /*
 Não criar variáveis com palavras reservadas
