@@ -1,3 +1,3 @@
-let nome = "João";
+let nome = "Lucas"; // String 
 
-console.log('Meu meu é {}');
+console.log(nome, 'nasceu em 1984');
