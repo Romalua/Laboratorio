@@ -7,4 +7,8 @@ const idade = 23;
 let peso = 65 ;
 const altura = 1.80;
 let imc =  peso/(altura*altura);
-console.log(nome,'tem',idade,'anos e pesa',peso,'KG. Ele tem de altura ',altura,'m e seu imc é de ',imc,)
+let anoNascimento = 2021 - idade
+
+console.log(`${nome} tem ${idade} anos pesa ${peso} kg`);
+console.log(`tem  ${altura} de altura e seu IMC é de ${imc}`);
+console.log(`${nome} nasceu em ${anoNascimento}.`);
