@@ -15,4 +15,5 @@ num2 = Number(num2);
 num3 = Number(num3);
 
 resultado = num1 + num2 + num3
-window.alert(`Resultado é ${resultado}`);
+
+window.alert(`Resultado é ${resultado}`); 
