@@ -1,3 +1,6 @@
 let umaString = "um texto";
+//Concatenação//--
 
-console.log(umaString.charAt(6));
+console.log(umaString.concat('em um dia.'));
+console.log(umaString + 'em um dia.');
+console.log(`${umaString} em um dia.`);
