@@ -2,4 +2,4 @@
 
 metros = float(input("Valor em Metros: "))
 centimetros = (metros*100)
-print ("{:.0f} metros convertidos para CM fica {:.0f} centimetros".format(metros, centimetros))70
+print ("{:.0f} metros convertidos para CM fica {:.0f} centimetros".format(metros, centimetros))
