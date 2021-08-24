@@ -1,4 +1,4 @@
-    """João Papo-de-Pescador, homem de bem, comprou um microcomputador para controlar o
+"""João Papo-de-Pescador, homem de bem, comprou um microcomputador para controlar o
     rendimento diário de seu trabalho. Toda vez que ele traz um peso de peixes maior que
     o estabelecido pelo regulamento de pesca do estado de São Paulo (50 quilos) deve
     pagar uma multa de R$ 4,00 por quilo excedente. João precisa que você faça um
@@ -8,12 +8,13 @@
     adequadas."""
 
 
-peso  = float(input("Quantidade de Kg: "))
+peso = float(input("Quantidade de Kg: "))
+if peso > 50:
+    excesso = peso - 50
+    multa = excesso * 4
+else:
+    excesso = 0
+    multa = 0
 
-    if peso = <50
-    
-
-    """peso 
-    peso passa de 50
-    cada kilo vale 4,00 de multa 
-    """
+print("O excesso de peso foi de ", str(excesso),
+      "kg, portanto, a multa é de R$", str(multa))
