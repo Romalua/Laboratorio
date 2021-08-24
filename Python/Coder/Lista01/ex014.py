@@ -13,10 +13,6 @@ peso  = float(input("Quantidade de Kg: "))
     if peso = <50
     
 
-
-    
-    
-    
     """peso 
     peso passa de 50
     cada kilo vale 4,00 de multa 
