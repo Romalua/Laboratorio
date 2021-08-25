@@ -1,29 +1,33 @@
-<!DOCTYPE html>
 <html>
- <head>
-   <title>Curso JavaScript Progressivo</title>
-   Primeira nota <input id="nota1" type="number"> <br />
-   Segunda  nota <input id="nota2" type="number"> <br />
-   <button onclick="media()">Calcular M�dia</button>
-
-   <script type="text/javascript">
-
-    function media(){
-     var nota1 = parseFloat(document.getElementById("nota1").value);
-     var nota2 = parseFloat(document.getElementById("nota2").value);
-
-     var media = (nota1 + nota2)/2 ;
-
-     if(media >= 7)
-      if(media==10)
-       alert("Uau! Aprovado com distin��o");
-      else
-       alert("Parabens, aprovado! Media "+media);
-     else
-      alert("Reprovado!")
-
-    }
- </script>
-
- </head>
+<head>
+<title>Exemplo Javascript</title>
+<script language="javascript">
+function calcular()
+{
+var nota1, nota2, nota3, nota4, media;
+nota1 = frmMedia.txtNota1.value;
+nota2 = frmMedia.txtNota2.value;
+nota3 = frmMedia.txtNota3.value;
+nota4 = frmMedia.txtNota4.value;
+nota1 = parseFloat(nota1);
+nota2 = parseFloat(nota2);
+nota3 = parseFloat(nota3);
+nota4 = parseFloat(nota4);
+media = (nota1 + nota2 + nota3 + nota4)/4;
+frmMedia.txtMedia.value = media;
+}
+</script>
+</head>
+<body>
+<p>Utilizando Javascript<p>
+<p>Formularios e Eventos<p>
+<form name ="frmMedia">
+Nota1 <input type ="text" name="txtNota1"/><br>
+Nota2 <input type ="text" name="txtNota2"/><br>
+Nota3 <input type ="text" name="txtNota3"/><br>
+Nota4 <input type ="text" name="txtNota4"/><br>
+<br><input type="button" value="Calcular" onclick="javascript:calcular();"/><br>
+<br>Media <input type ="text" name="txtMedia"/><br>
+</form>
+</body>
 </html>
