@@ -1,0 +1,121 @@
+<!--
+<head>
+  <meta charset="UTF-8" />
+  <title>Usando Eventos Dom</title>
+  <link rel="stylesheet" href="../_CSS/Aplicando.CSS" />
+  <script src="../JavaScript0/aplicando.js"></script>
+</head>
+-->
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Sistema</title>
+  <style>
+    body {
+      font-family: monospace;
+      background-color: black;
+      color: white;
+    }
+
+    div {
+      font-size: 13px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Quiz</h1>
+  <h2>Qual a sua a sua lingua ??</h2>
+  <label for="lingua">Linguas </label><select id="iLingua">
+    <option value="br">Português</option>
+    <option value="es">Espanhol</option>
+    <option value="fr">Fracês</option>
+    <option value="ig">Inglês</option>
+    <option value="co">Coreano</option>
+    <option value="ja">Japonês</option>
+    <option value="ma">Mandarim</option>
+    <option value="o">Outros</option>
+  </select>
+
+  <input type="button" value="Registrar" onclick="verificarMulta()" />
+  <p id="lResultado"></p>
+
+  <script>
+
+    function verificarMulta() {
+      var lingua = window.document.getElementById('iLingua');
+      lResultado = window.document.getElementById('lResultado');
+
+      var lingua = lingua.options[lingua.selectedIndex].text;
+
+      lResultado.innerHTML = `teste de lingua  ${lingua}`;
+
+
+
+      if (lingua == "Português") {
+        lResultado.innerHTML = `<p>Sua lingua é Português <p>
+                                <p>Português é considerada oficial em 8 Países </p>
+                                <p>6° lingua mais faladano mundo </p>
+                                <p>Foi um prazer descobrir sobre sua língua </p>`;
+        
+      } else if (lingua == "Espanhol") {
+        lResultado.innerHTML = `<p>Sua lingua é Espanhol</p>
+                                <p>Espanhol é considerado oficial em 20 países</p>
+                                <p>2° lingua mais falada no mundo </p>
+                                <p>Fue un placer encontrar tu idioma</p>`;
+        
+      } else if (lingua == "Fracês") {
+        lResultado.innerHTML = `<p>Sua lingua é Fracês </p>
+                                <p>é considerada oficial em em 30 países</p>
+                                <p>5° lingua mais faladano mundo </p>
+                                <p>Ce fut un plaisir de trouver votre langue</p>`;
+        
+      } else if (lingua == "Inglês") {
+        lResultado.innerHTML = `<p>Sua lingua é Inglês </p>
+                                <p>é considerada oficial em 60 países</p>
+                                <p>3° lingua mais falada no mundo </p>
+                                <p>It was a pleasure to find your language</p>`;
+        
+      } else if (lingua == "Coreano") {
+        lResultado.innerHTML = `<p>A língua coreana </p 
+                                <p>É um idioma do leste asiático falado</p>
+                                <p>por cerca de 78 milhões de pessoas.</p>
+                                <p>1° lingua mais falada no mundo </p>
+                                <p>당신의 언어를 찾게되어 기뻤습니다</p>`;
+        
+      } else if (lingua == "Japonês") {
+        lResultado.innerHTML = `<p>Sua lingua é </p> 
+                                <p>É falado por cerca de 128 milhões de pessoas</p>
+                                <p>principalmente no Japão, onde é a língua nacional.</p>
+                                <p>9° lingua mais falada no mundo </p>
+                                <p>あなたの言語を見つけることができて嬉しかった</p>`;
+        
+      } else if (lingua == "Mandarim") {
+        lResultado.innerHTML = `<p>Sua lingua é </p> 
+                                <p>Mandarim é o nome dado a uma das variações da língua chinesa </p>
+                                <p>falada na maior parte do norte e do sudoeste da China.</p>
+                                <p>1° lingua mais falada no mundo mesma posição do chines </p>
+                                <p>很高兴找到您的语言</p>`;
+        
+      }
+      else if (lingua == "Outros") {
+        lResultado.innerHTML = `<p>Sua lingua não está cadastrasda</p> 
+                                <p>Mande um email para higorpinheirocosta@gmail.com e faça o pedido</p>
+                                <p>Foi um prazer descobrir sobre sua língua </p>`;
+        
+
+      } else {
+        lResultado.innerHTML = `<p>Sua lingua não está cadastrasda</p> 
+                                <p>Mande um email para higorpinheirocosta@gmail.com e faça o pedido</p>
+                                <p>Foi um prazer descobrir sobre sua língua </p>`;
+
+      }
+
+    }
+
+  </script>
+</body>
+
+</html>

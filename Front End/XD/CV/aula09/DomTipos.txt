@@ -1,0 +1,17 @@
+Selecionando Dom
+
+por Marca
+-getElementsByTagName()
+
+por ID
+-getElementByld()
+
+por Nome
+-getElementsByTagName()
+
+por Classe
+-getElementsByClassName()
+
+por Seletor 
+-querySelector()
+-querySelectorAll()

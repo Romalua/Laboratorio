@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NACIONALIDADE</title>
+</head>
+
+<body>
+    <h1> Pais de Origem </h1>
+    Pais de nacimento: <input type="string" name="pais" id="pais">
+    <input type="button" value="Autenticar" onclick="confirmar()">
+    <div id="origem">
+
+    </div>
+    <script>
+        function confirmar() {
+            let paisorigem = window.document.querySelector('input#pais')
+            let origem = window.document.querySelector('div#origem')
+            let xxx = String(paisorigem.value)
+            origem.innerHTML = `<p>Seu pais é o(a) <strong>${xxx}<s/tronge></p>`
+            if (xxx == 'Brasill') {
+                origem.innerHTML += `Você é Brasileiro(a)`
+            } else {
+                origem.innerHTML += `Vocé Estrangeiro(a)!`
+            }
+        }
+    </script>
+
+</body>
+
+k

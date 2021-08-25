@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somando 3 Valores!</title>
+    <style>
+        body {
+            font: normal 15pt Impact;
+            background: rgb(255, 238, 0);
+        }
+
+        input {
+            font: normal 17pt Arial;
+            width: 100px;
+        }
+
+        div#resultado {
+            font: normal 30pt Arial;
+            margin-top: 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Somando 3 Valores</h1>
+    <input type="number" name="num1" id="num1"> +
+    <input type="number" name="num2" id="num2"> +
+    <input type="number" name="num3" id="num3">
+    <input type="button" value="somar" onclick="somar()">
+    <div id="resultado">Resultado</div>
+    <script>
+        function somar() {
+            var val1 = window.document.getElementById("num1")
+            var val2 = window.document.getElementById("num2")
+            var val3 = window.document.getElementById("num3")
+            var res = window.document.getElementById("resultado")
+            var n1 = Number(val1.value)
+            var n2 = Number(val2.value)
+            var n3 = Number(val3.value)
+            var soma = n1 + n2 + n3
+            res.innerHTML = `A soma entre os valores ${n1}, ${n2}, ${n3} é ${soma}`
+        } 
+    </script>
+</body>
+
+</html>
