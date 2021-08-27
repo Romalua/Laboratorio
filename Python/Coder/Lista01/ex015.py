@@ -15,13 +15,13 @@ E calcule os descontos e o salário líquido, conforme a tabela abaixo:
 = Salário Liquido : R$
 Obs.: Salário Bruto - Descontos = Salário Líquido."""
 
-money_hora = int(input("Valor recebido por hora: "))
-mes_hora = int(input("Número de horas trabalhadas no mês: "))
+money_hora = int(input("Valor recebido por hora: "));
+mes_hora = int(input("Número de horas trabalhadas no mês: "));
 #print ("Total do seu salário do mês: {}".format(money_hora*mes_hora))
-bruto = (money_hora*mes_hora)
-imposto_renda = bruto * 0.11
-inss = bruto * 0.08
-sindi = bruto * 0.05
-liquido = bruto - (imposto_renda + inss + sindi)
+bruto = (money_hora*mes_hora);
+imposto_renda = bruto * 0.11;
+inss = bruto * 0.08;
+sindi = bruto * 0.05;
+liquido = bruto - (imposto_renda + inss + sindi);
 
 print("+ Salário Bruto: {}R$ \n - IR (11%) : {}R$ \n - INSS (8%) : {}R$ \n - Sindicato (5%) : {}R$ \n Sálario Liquido : {}R$ ".format(bruto, imposto_renda, inss, sindi, liquido))
