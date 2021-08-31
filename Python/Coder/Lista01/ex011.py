@@ -17,3 +17,4 @@ print("O produto do dobro de {:.0F} com metade de {:.0F} é {:.0F}".format(
 print("A soma do triplo de {:.0F} com o valor de {:.0F} é {:.0F}".format(
     number1, number3, soluc2))
 print("O valor de {:.0F} elevado ao cubo é {:.0F}".format(number3, soluc3))
+
