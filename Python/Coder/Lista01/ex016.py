@@ -12,5 +12,5 @@ lata_tamanho = 18
 lata_full = litros / lata_tamanho
 total = lata_full * preco
 
-print ("- Você usara {} lata de tinta. \n - O preço total é de: R${}" .format(lata_full,
+print ("- Você usara {:.2f} lata de tinta. \n - O preço total é de: R${:.2f}" .format(lata_full,
                                                                               total))
