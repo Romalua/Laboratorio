@@ -72,4 +72,4 @@ elif money > 1500:
     print('-=-' * 20)
     print('\n')
     
-//
+"""OLA """
