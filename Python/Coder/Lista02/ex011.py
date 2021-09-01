@@ -11,3 +11,21 @@ e lhe contraram para desenvolver o programa que calculará os reajustes.
     -o percentual de aumento aplicado;
     -o valor do aumento;
     -o novo salário, após o aumento."""
+
+
+from time import sleep
+money = float(input("Seu money mensal: "))
+
+if money <= 280:
+    ajuste = (money * 0.20)
+    aumento = money + ajuste
+    print("\n")
+    print("-=-" * 20)
+    print("Processando...")
+    sleep(1)
+    print("\nSalário antes do reajuste R${}".format(money))
+    print("\nPercentual de aumento aplicado - 20%")
+    print("\nValor do aumento R${}".format(ajuste))
+    print("\nNovo salário R${}".format(aumento))
+    print('-=-' * 20)
+    print('\n')
