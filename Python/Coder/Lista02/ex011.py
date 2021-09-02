@@ -16,7 +16,7 @@ e lhe contraram para desenvolver o programa que calculará os reajustes.
 from time import sleep
 money = float(input("Seu money mensal: "))
 
-if money <= 280:
+if money == 0 or money <= 280:
     ajuste = (money * 0.20)
     aumento = money + ajuste
     print("\n")
@@ -72,4 +72,4 @@ elif money > 1500:
     print('-=-' * 20)
     print('\n')
     
-"""OLA """
+    
