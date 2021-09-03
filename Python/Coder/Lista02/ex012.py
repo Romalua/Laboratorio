@@ -18,3 +18,4 @@ de hora é 220.
         Total de descontos              : R$  165,00
         Salário Liquido                 : R$  935,00"""      
         
+        
