@@ -9,13 +9,17 @@ Desconto do IR:
 -Salário Bruto até 1500 (inclusive) - desconto de 5%
 -Salário Bruto até 2500 (inclusive) - desconto de 10%
 -Salário Bruto acima de 2500 - desconto de 20% Imprima na tela as informações, 
-dispostas conforme o exemplo abaixo. No exemplo o valor da hora é 5 e a quantidade
-de hora é 220.
+dispostas conforme o exemplo abaixo. 
+
+No exemplo o valor da hora é 5 e a quantidadede hora é 220.3
         Salário Bruto: (5 * 220)        : R$ 1100,00
         (-) IR (5%)                     : R$   55,00  
         (-) INSS ( 10%)                 : R$  110,00
         FGTS (11%)                      : R$  121,00
         Total de descontos              : R$  165,00
         Salário Liquido                 : R$  935,00"""      
+        
+        
+        
         
         
