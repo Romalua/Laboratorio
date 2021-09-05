@@ -16,5 +16,8 @@ de hora é 220.
         (-) INSS ( 10%)                 : R$  110,00
         FGTS (11%)                      : R$  121,00
         Total de descontos              : R$  165,00
-        Salário Liquido                 : R$  935,00"""      
+        Salário Liquido                 : R$  935,00"""    
         
+import math 
+r = 5
+a = math.pi * (r ** 2 )
