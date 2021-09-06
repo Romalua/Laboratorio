@@ -81,7 +81,6 @@ elif media < 4.0:
     print("\nSuas Notas: {} e {}".format(nt1,nt2))
     print("\nMédia das Notas: {}".format(media))
     print("\nConceito: {}".format(conceito))
-    print("\nStatus:{}".format(status))
+    print("\nStatus: {}".format(status))
     print('-=-' * 20)
     print('\n')        
-    
