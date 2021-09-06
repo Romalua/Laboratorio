@@ -43,7 +43,7 @@ elif money == 281 or money <= 700:
     print("\nNovo salário R${:.2f}".format(aumento))
     print('-=-' * 20)
     print('\n')
- 
+
 elif money == 700 or money <= 1500:
     ajuste = (money * 0.10)
     aumento = money + ajuste
