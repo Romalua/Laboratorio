@@ -11,6 +11,9 @@
             color: white;
             font: normal 15pt Arial;
         }
+        h1{
+            background-color:rgb(0, 81, 255)
+        }
     </style>
 </head>
 
@@ -21,8 +24,16 @@
     <div id="msg">Clique em mim</div>
     <script>
         let p1 = window.document.getElementsByTagName('p')[0]
+        let corpo = document.body
+        /*
+        let d = document.getElementById('msg')
+        d.style.background = 'Blue'
+        d.innerText = 'Estou aguardado...'
+        */
+        let d = document. querySelector('div#msg')
+        d.style.background = 'blue'
 
-        window.document.write(`Esta escrito assim: ${p1.innerText}`)
+
     </script>
 </body>
 
