@@ -13,8 +13,8 @@
 button{
     border: none;
     font-size: 1.1rem;
-    padding: 10px;
+    padding: 20px;
     background-color: #0dc7df;
     color: rgb(0, 0, 0);
-    border-radius: 4px;
+    border-radius: 8px;
 }
