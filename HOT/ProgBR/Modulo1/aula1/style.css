@@ -1,20 +1,22 @@
-#list li{
+#list li {
     padding: 5px;
     margin: 2px;
     margin-left: 0px;
-    background-color: #DDD; 
+    background-color: #DDD;
     font-size: 1.2rem;
     list-style-type: none;
 }
-#list{
+
+#list {
     padding: 0px;
     display: none;
 }
-button{
+
+button {
     border: none;
     font-size: 1.1rem;
-    padding: 10px;
-    background-color: #0083ff;
-    color: white;
-    border-radius: 4px;
+    padding: 20px;
+    background-color: #0dc7df;
+    color: rgb(0, 0, 0);
+    border-radius: 8px;
 }
