@@ -1,8 +1,12 @@
-"""Faça um Programa que peça dois números e imprima o maior deles."""
-number1 = float(input("Valor 1: "))
-number2 = float(input("Valor 2: "))
+"""Faça um algoritmo que receba o peso de uma pessoa, calcule e mostre:
 
-if number1 > number2:
-    print(number1)
-else:
-    print(number2)
+a) o novo peso se a pessoa engordar 15% sobre o peso digitado;
+
+b) o novo peso se a pessoa emagrecer 20% sobre o peso digitado. """
+
+peso = float(input("Digite seu Peso: "))
+engordar = (peso * 0.15) + peso
+emagrecer = peso - (peso * 0.20)
+
+print("Seu peso ao engordar 15% seria de {:.1f}KG ao emagrecer 20% seria {:.1f}KG".format(
+    engordar, emagrecer))
