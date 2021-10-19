@@ -1,19 +1,26 @@
-"""Tendo como dado de entrada a altura (h) de uma pessoa, construa um algoritmo que calcule
-   seu peso ideal, utilizando as seguintes fórmulas:
-   Para homens: (72.7*h) - 58
-   Para mulheres: (62.1*h) - 44.7"""
-   
-sexo = str(input("Qual é o seu sexo: M-Masculino / F-Feminino:  "))
-altura = float(input('Altura:'))
-peso = float(input('Peso:'))
+import math
+print("========== Menu Principal ==========",
+      "\n1. Calcular a potência X elevado a Y",
+      "\n2. Calcular a raiz quadrada de um número",
+      "\n3. Verificar se um número é par ou ímpar",
+      "\n=================================")
+escolha = int(input("Escolha a opção por favor: "))
 
-peso_ideal = (72.7 * altura) - 58 if sexo == "M" else (62.1 * altura) - 44.7
-
-if peso < peso_ideal:
-    print('A baixo do peso ideal!')
-elif peso == peso_ideal:
-    print('Dentro do peso ideal!')
+if escolha == 1:
+    x = float(input("Insira o valor de X: "))
+    y = float(input("Insira o valor de Y: "))
+    potenciacao = (x**y)
+    print("Potência de {:.0f} elevado a {:.0f} é {:.0f} ".format(
+        x, y, potenciacao))
+elif escolha == 2:
+    number = float(input("Digite o número para o calculo de raiz quadrada:" ))
+    raiz = math.sqrt(number)
+    print("\nA raiz quadrada de {:.0f} é {:.2f}".format(number,raiz))
+elif escolha ==3:
+    valor = int(input("Digite o numero: "))
+    if (valor%2) ==0:
+        print("Numero digitado é Par")
+    else:
+        print("Numero digitado é Impar")
 else:
-    print('Acima do peso ideal!')
-print('Peso: {:.0f} Peso ideal: {:.0f}'.format(peso, peso_ideal))
-   
+    print ("opção digitada é inválida!!!")                        
