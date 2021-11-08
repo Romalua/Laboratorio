@@ -12,4 +12,4 @@ uma nota de 50, quatro notas de 10, uma nota de 5 e quatro notas de 1."""
 
 valor = float(input("Digite o Valor: "))
  
-if valor 
+if valor
