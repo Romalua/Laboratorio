@@ -27,11 +27,11 @@ if escolha == 1:
     else:
         print("{} é IMPAR".format(valor))
         tipo = adicao
-        if (valor>0) :
+    if (valor>0) :
             print("{} é Positivo".format(tipo))
-        else:
+    else:
             print("{} é Negativo".format(tipo))
-        print(type(adicao))
+ 
         
 
 elif escolha == 2:
