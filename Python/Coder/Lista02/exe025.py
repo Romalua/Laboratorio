@@ -29,7 +29,7 @@ elif (3 <= soma_respostas <= 4):
     print("\nCúmplice")
 elif (soma_respostas == 5):
     print("\nAssassino")
-Solução 1
+
 lista_perguntas = ["Telefonou para a vítima? 1/Sim ou 0/Não: ",
                    "Esteve no local do crime? 1/Sim ou 0/Não: ",
                    "Mora perto da vítima? 1/Sim ou 0/Não: ",
