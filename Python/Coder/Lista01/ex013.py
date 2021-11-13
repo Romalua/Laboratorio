@@ -13,14 +13,15 @@ if escolha == 1:
     print("Potência de {:.0f} elevado a {:.0f} é {:.0f} ".format(
         x, y, potenciacao))
 elif escolha == 2:
-    number = float(input("Digite o número para o calculo de raiz quadrada:" ))
+    number = float(input("Digite o número para o calculo de raiz quadrada:"))
     raiz = math.sqrt(number)
-    print("\nA raiz quadrada de {:.0f} é {:.2f}".format(number,raiz))
-elif escolha ==3:
+    print("\nA raiz quadrada de {:.0f} é {:.2f}".format(number, raiz))
+elif escolha == 3:
     valor = int(input("Digite o numero: "))
-    if (valor%2) ==0:
+    if (valor % 2) == 0:
         print("Numero digitado é Par")
     else:
         print("Numero digitado é Impar")
 else:
-    print ("opção digitada é inválida!!!")                        
+    print("opção digitada é inválida!!!")
+]
