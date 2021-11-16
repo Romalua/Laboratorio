@@ -38,12 +38,14 @@ elif Com == "G":
         bruto = QG * 6.49
         desconto = (bruto*0.04)
         liquido = bruto - desconto
-        print("Você escolher abastercer com {}, com a quantidade de {} litros, com desconto de 4% que da {:.2F}R, você ira pagar {:.2f}R$ no final".format(G,QG,desconto,liquido))    
+        print("Você escolher abastercer com {}, com a quantidade de {} litros, com desconto de 4% que da {:.2F}R, você ira pagar {:.2f}R$ no final".format(
+            G, QG, desconto, liquido))
     elif QG > 20:
         G = "Gasolina"
         bruto = QG * 6.49
-        desconto = (bruto*0.06)
+        desconto = (bruto*0.06)s
         liquido = bruto - desconto
-        print("Você escolher abastercer com {}, a quantidade de {} litros, com desconto de 6% que da {:.2F}R$, você ira pagar {:.2f}R$ no final".format(G,QG,desconto,liquido))      
+        print("Você escolher abastercer com {}, a quantidade de {} litros, com desconto de 6% que da {:.2F}R$, você ira pagar {:.2f}R$ no final".format(
+            G, QG, desconto, liquido))
 else:
-    print("Opçaõ Invalida!")             
+    print("Opçaõ Invalida!")
