@@ -9,3 +9,5 @@ Se compra for feita no cartão Tabajara o cliente receberá ainda um desconto de
 sobre o total da compra. Escreva um programa que peça o tipo e a quantidade de carne 
 comprada pelo usuário e gere um cupom fiscal, contendo as informações da compra: tipo 
 e quantidade de carne, preço total, tipo de pagamento, valor do desconto e valor a pagar."""
+
+
