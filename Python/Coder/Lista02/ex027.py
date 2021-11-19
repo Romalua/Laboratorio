@@ -18,7 +18,4 @@ morango = input("Vai querer morango? Sim ou Não:")
 
 if morango == "Sim" or "sim" or "s":
    kg = input("Qual a quantidade em Kg: ") 
-
-   media = 
-   preco = kg * 2.50   
-   if kg > 8 or 
+   
