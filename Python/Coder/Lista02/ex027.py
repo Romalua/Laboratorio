@@ -16,6 +16,4 @@ Maçã            R$ 1,80 por Kg          R$ 1,50 por Kg""")
 
 morango = input("Vai querer morango? Sim ou Não:")
 
-if morango == "Sim" or "sim" or "s":
-   kg = input("Qual a quantidade em Kg: ") 
    
