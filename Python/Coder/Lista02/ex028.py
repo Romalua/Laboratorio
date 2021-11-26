@@ -13,3 +13,5 @@ e quantidade de carne, preço total, tipo de pagamento, valor do desconto e valo
 
 print("\nEscolha sua carne:")
 print("File Duplo")
+
+https://github.com/isquicha/exercicios-logica-python/blob/main/exercicios/045.py
