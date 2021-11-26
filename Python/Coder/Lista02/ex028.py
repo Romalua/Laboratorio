@@ -11,3 +11,5 @@ comprada pelo usuário e gere um cupom fiscal, contendo as informações da comp
 e quantidade de carne, preço total, tipo de pagamento, valor do desconto e valor a pagar."""
 
 
+print("\nEscolha sua carne:")
+print("File Duplo")
