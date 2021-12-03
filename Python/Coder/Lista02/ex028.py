@@ -10,8 +10,16 @@ sobre o total da compra. Escreva um programa que peça o tipo e a quantidade de 
 comprada pelo usuário e gere um cupom fiscal, contendo as informações da compra: tipo 
 e quantidade de carne, preço total, tipo de pagamento, valor do desconto e valor a pagar."""
 
+print("\nO Hipermercado Tabajara está com uma promoção de carnes que é imperdível. Confira:")
+print("                      Até 5 Kg           Acima de 5 Kg")
+print("File Duplo      R$ 4,90 por Kg          R$ 5,80 por Kg")
+print("Alcatra         R$ 5,90 por Kg          R$ 6,80 por Kg")
+print("Picanha         R$ 6,90 por Kg          R$ 7,80 por Kg")
 
-print("\nEscolha sua carne:")
-print("File Duplo")
+carne = str(input("O que vai ser hoje ? "))
+quilo = float(input("Digite quantos quilos vai levar: "))
+cartao = input("Vai usar o cartão Tabajara? ")
+valor = 0
 
-https://github.com/isquicha/exercicios-logica-python/blob/main/exercicios/045.py
+if carne == "File Duplo" or " file duplo" or "Duplo Filé" or "duplo file":
+    valor += quilo * 
