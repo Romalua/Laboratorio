@@ -1,9 +1,0 @@
-Number 
-5 18 -12 0.5 -15.9 3.14 8.0
-
-String 
-"Google" 'Javascript' `Maria` 104.013.039.93
-
-Boolean 
-True False 
-(verdadeiro) (Falso)
