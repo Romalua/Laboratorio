@@ -71,3 +71,7 @@ elif money > 1500:
     print("\nNovo salário R${:.2f}".format(aumento))
     print('-=-' * 20)
     print('\n')
+<<<<<<< Updated upstream
+=======
+    
+>>>>>>> Stashed changes
