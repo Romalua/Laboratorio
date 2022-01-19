@@ -5,9 +5,21 @@ A -par ou ímpar;
 B -positivo ou negativo;
 C -inteiro ou decimal."""
 
-numero = int(input('Digite um inteiro: '))
+numero = float(input('Digite um inteiro: '))
 
 if numero%2 :
-        print("Ímpar")
+        print("A-Ímpar")
 else:
-        print("Par")
+        print("A-Par")
+        
+if numero >= 0 : 
+        print ("positivo")
+else:
+        print ("Negativo")
+        
+        
+if(numero // 1 == numero): 
+    print('Número inteiro !')
+else:
+    print('Número Decimal !')        
+        
