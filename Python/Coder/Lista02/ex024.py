@@ -17,9 +17,8 @@ if numero >= 0 :
 else:
         print ("Negativo")
         
-        
 if(numero // 1 == numero): 
-    print('Número inteiro !')
+        print('Número inteiro !')
 else:
-    print('Número Decimal !')        
-        
+        print('Número Decimal !')        
+         
