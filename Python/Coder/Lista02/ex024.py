@@ -4,3 +4,10 @@ acompanhado de uma frase que diga se o número é:
 A -par ou ímpar;
 B -positivo ou negativo;
 C -inteiro ou decimal."""
+
+numero = int(input('Digite um inteiro: '))
+
+if numero%2 :
+        print("Ímpar")
+else:
+        print("Par")
