@@ -8,7 +8,15 @@ e Estado Civil: 's', 'c', 'v', 'd';"""
 nome = str(input("informe um nome--> "))
 while (len(nome) <= 3):
     nome = str(input("informe um nome--> "))
-    
-idade =int(input(input("Idade: ")))
-while ( idade > 150 or idade < 0 ):
-    idade=int(input("informe a idade--> "))
+
+idade = int(input(input("informe a idade--> ")))
+while (idade > 150 or idade < 0):
+    idade = int(input("informe a idade--> "))
+
+salario = float(input("informe um salário--> "))
+while (salario < 0):
+    salario = float(input("informe um salário--> "))
+
+sexo =str(input("Informe um sexo--> "))
+while sexo !="f" and sexo !="m":
+    sexo =str(input("Informe um sexo--> "))
