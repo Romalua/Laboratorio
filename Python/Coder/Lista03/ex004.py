@@ -14,4 +14,4 @@ while A < B:
     B = B + (B * taxaB)
     anos = anos + 1
 
-print ("SerÃ£o necessÃ¡rios " + str(anos) + " anos para que a populaÃ§Ã£o do paÃ­s A ultrapasse ou iguale a populaÃ§Ã£o do paÃ­s B")
+print ("Serão necessarios " + str(anos) + " anos para que a população do pais A ultrapasse ou iguale a população do pais B")
