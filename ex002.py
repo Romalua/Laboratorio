@@ -1,5 +1,9 @@
 def somar ():
-    num =float(input("Digite um numero: "))
-    cont = 0
-    while (0 < num):
-        
+    x = int(input("Digite um numero: "))
+    soma = 0
+    for i in range(0, x+1):
+        soma = soma + i 
+    return soma 
+    
+x = somar()   
+print("A soma foi ", x)  
