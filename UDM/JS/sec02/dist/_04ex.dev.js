@@ -1,6 +1,6 @@
 "use strict";
 
-var nome = 'Lucas Barreto';
+var nome = prompt("Seu nome? ");
 var sobrenome = "Faustino";
 var idade = 24;
 var peso = 63;
