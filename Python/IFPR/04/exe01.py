@@ -11,3 +11,7 @@ if (opcao==1):
     numero1= int(input("Digite o primeiro numero: "))
     numero2= int(input("Digite o segundo numero: "))
     print("A soma dos valores é ", (numero1+numero2))
+elif(opcao == 2):
+    x = int(input("Valor de X: "))
+    y = int(input("Valor de y: "))
+    print("Valor de {} elevado a {} é {}".format(x,y,(x**y)))
