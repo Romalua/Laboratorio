@@ -10,6 +10,6 @@ let anoNascimento;
 imc = peso / (altura*altura);
 anoNascimento = 2022 - idade;
 
-console.log(nome, sobrenome,'tem', idade, 'anos e pesa', peso,'Kg')
-console.log('tem', altura, 'de altura e seu IMC é de', imc);
-console.log(nome,'nasceu em',anoNascimento);
+console.log(`${nome} ${sobrenome} tem ${idade} anos e pesa ${peso}Kg`)
+console.log(`tem ${altura} de altura e seu IMC é de ${imc}`);
+console.log(`${nome} nasceu em ${anoNascimento}`);
