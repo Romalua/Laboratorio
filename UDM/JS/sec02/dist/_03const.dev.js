@@ -11,4 +11,6 @@ var number2 = 10;
 var _final = number1 * number2;
 
 var finalDuplicado = _final * 4;
-console.log(finalDuplicado);
+var finaltri = _final * 3;
+finaltri = finaltri + 7;
+console.log(finaltri);
