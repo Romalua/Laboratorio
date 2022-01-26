@@ -1,5 +1,5 @@
 
-const nome = prompt("Seu nome? ");
+const nome = 'Lucas Barreto';
 const sobrenome = "Faustino";
 const idade = 24;
 const peso = 63;
