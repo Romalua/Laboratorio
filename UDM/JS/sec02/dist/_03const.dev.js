@@ -10,4 +10,5 @@ var number2 = 10;
 
 var _final = number1 * number2;
 
-console.log(_final);
+var finalDuplicado = _final * 4;
+console.log(finalDuplicado);
