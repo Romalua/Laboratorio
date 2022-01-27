@@ -12,11 +12,22 @@ ORDEM DE IMPORTANCIA
 % resto da divisão
 
 */
-var num = 10;
-var num2 = 3;
+
+/* exemplo
+const num = 10;
+const num2 = 3;
+
 console.log(num + num2);
 console.log(num - num2);
 console.log(num / num2);
 console.log(num * num2);
-console.log(Math.pow(num, num2));
+console.log(num ** num2);
 console.log(num % num2);
+*/
+d;
+var contador = 1;
+contador++;
+contador++;
+contador++;
+contador++;
+console.log(contador);
