@@ -1,6 +1,6 @@
 /*
 ORDEM DE IMPORTANCIA 
-() >>> ** >>> + / % >>> + - 
+() >>> ** >>> * / % >>> + - 
 
 +  adição/ concatenação
 -  subtração
