@@ -1,3 +1,5 @@
+"use strict";
+
 /*
 
 +  adição/ concatenação
@@ -8,12 +10,11 @@
 % resto da divisão
 
 */
-const num = 10;
-const num2 = 3;
-
+var num = 10;
+var num2 = 3;
 console.log(num + num2);
 console.log(num - num2);
 console.log(num / num2);
 console.log(num * num2);
-console.log(num ** num2);
+console.log(Math.pow(num, num2));
 console.log(num % num2);
