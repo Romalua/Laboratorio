@@ -3,3 +3,4 @@
 let nomeAluno; //undefined = não aponta pra lugar nenhum
 const sobreAluno = null;  //não aponta pra lugar nenhum
 const aprovado = False; // Boolean = True, False (lógico)
+
