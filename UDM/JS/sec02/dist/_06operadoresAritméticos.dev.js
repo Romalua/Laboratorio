@@ -24,10 +24,15 @@ console.log(num * num2);
 console.log(num ** num2);
 console.log(num % num2);
 */
-d;
-var contador = 1;
+
+/*
+let contador =   1;
 contador++;
 contador++;
 contador++;
 contador++;
 console.log(contador);
+*/
+var passo = 2;
+var contador = 1;
+contador = contador + passo;

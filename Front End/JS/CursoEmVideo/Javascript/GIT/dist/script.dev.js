@@ -16,11 +16,16 @@ function carregar() {
     msg.innerHTML += "<p>BOM DIA!</p>";
     img.src = "manhã1.png";
     document.body.style.background = "#e5d6bd";
-  } else if (hora >= 12 && hora <= 18) {
+  } else if (hora >= 12 && hora <= 15) {
     // BOA TARDE
     msg.innerHTML += "<p>BOA TARDE!</p>";
-    img.src = "tarde2.png";
+    img.src = "tarde1.png";
     document.body.style.background = "#d49383";
+  } else if (hora >= 16 && hora <= 18) {
+    //BOA tarde2
+    msgmsg.innerHTML += "<p>BOA TARDE!</p>";
+    img.src = "tarde2.png";
+    document.body.style.background = "#d49384";
   } else {
     //BOA NOITE!!
     msg.innerHTML += "<p>BOA NOITE!</p>";

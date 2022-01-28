@@ -3,7 +3,7 @@ function carregar() {
   var img = window.document.querySelector("img#imagem");
   var data = new Date();
   var hora = data.getHours();
-  var minutos = data.getMinutes();
+  let minutos = data.getMinutes();
   // var segundos = data.getSeconds();
   // var hora = 14;
   // var minutos = 20;

@@ -21,11 +21,19 @@ console.log(num / num2);
 console.log(num * num2);
 console.log(num ** num2);
 console.log(num % num2);
-*/d
+*/
 
-let contador = 1;
+/*
+let contador =   1;
 contador++;
 contador++;
 contador++;
 contador++;
 console.log(contador);
+*/
+
+const passo = 2;
+let contador = 0;
+contador = contador + passo;
+console.log(contador);
+contador =
