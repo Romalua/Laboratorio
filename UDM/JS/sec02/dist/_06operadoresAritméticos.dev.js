@@ -32,14 +32,16 @@ contador++;
 contador++;
 contador++;
 console.log(contador);
+
+Operador de atribuição 
++=
+-=
+*=
+/=
 */
-var passo = 2;
-var contador = 0;
-contador = contador + passo;
-console.log(contador);
-contador = contador + passo;
-console.log(contador);
-contador = contador + passo;
-console.log(contador);
-contador = contador + passo;
+var contador = 2;
+contador += 2;
+contador = Math.pow(contador, 2);
+contador /= 2;
+contador -= 2;
 console.log(contador);
