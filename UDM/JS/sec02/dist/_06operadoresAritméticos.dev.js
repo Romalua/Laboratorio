@@ -34,5 +34,12 @@ contador++;
 console.log(contador);
 */
 var passo = 2;
-var contador = 1;
+var contador = 0;
 contador = contador + passo;
+console.log(contador);
+contador = contador + passo;
+console.log(contador);
+contador = contador + passo;
+console.log(contador);
+contador = contador + passo;
+console.log(contador);

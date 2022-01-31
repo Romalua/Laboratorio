@@ -32,6 +32,13 @@ contador++;
 console.log(contador);
 */
 
-const passo;
-let contador = 1;
-contador  = contador + 2;
+const passo = 2;
+let contador = 0;
+contador  = contador + passo;
+console.log(contador);
+contador  = contador + passo;
+console.log(contador);
+contador  = contador + passo;
+console.log(contador);
+contador  = contador + passo;
+console.log(contador);
