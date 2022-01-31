@@ -36,12 +36,24 @@ Operador de atribuição
 -=
 *=
 /=
+
 */
 
-
+/*
 let contador = 2;
 contador += 2;
 contador **= 2;
 contador /= 2;
 contador -= 2;
-console.log(contador);
+console.log(contador);*/
+
+
+//Nan = Not a Number
+//parseInt convertrer o valor para Inteiro
+//ParseFloat converter o valor para Ponto FLutuante
+//
+
+const num1 = 10;
+const num2 = Number('5');
+console.log(num1 + num2);
+console.log(typeof num2);
