@@ -1,7 +1,5 @@
 "use strict";
 
-function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
-
 /*
 ORDEM DE IMPORTANCIA 
 () >>> ** >>> * / % >>> + - 
@@ -57,4 +55,3 @@ console.log(contador);*/
 var num1 = 10;
 var num2 = Number('5');
 console.log(num1 + num2);
-console.log(_typeof(num2));
