@@ -8,4 +8,4 @@ imc = peso / (altura **2)
 print ("Nome: {} tem {} anos, seu imc é {:.1f}".format (nome, idade, imc))
 print ("Nome: {n} tem {i} anos, seu imc é {im:.2f}".format (n=nome, i=idade, im=imc))
 print('Olá mundo')
-nome = lucas 
+
