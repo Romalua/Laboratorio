@@ -6,8 +6,8 @@ prompt("Nome: ")
 let num1 = prompt("Numero: ");
 let num2 = prompt("Outro Numero: ");
 
-num1 = parseInt(num1);
-num2 = parseInt(num2);
+num1 = Number(num1);
+num2 = Number(num2);
 
 const resultado = num1 + num2;
 
