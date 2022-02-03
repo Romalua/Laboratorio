@@ -51,9 +51,9 @@ console.log(contador);*/
 //Nan = Not a Number
 //parseInt convertrer o valor para Inteiro
 //ParseFloat converter o valor para Ponto FLutuante
-//
+//Number vai detectar o valor de qualquer jeito.
 
 const num1 = 10;
-const num2 = Number('5');
+const num2 = Number('5.2');
 console.log(num1 + num2);
 
