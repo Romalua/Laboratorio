@@ -8,3 +8,7 @@ let num2 = prompt("Outro Numero: ");
 
 num1 = parseInt(num1);
 num2 = parseInt(num2);
+
+const resultado = num1 + num2;
+
+alert(`O resultado é ${resultado}`);
