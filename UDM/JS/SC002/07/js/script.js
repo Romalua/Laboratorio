@@ -9,6 +9,7 @@ let num2 = prompt("Outro Numero: ");
 num1 = Number(num1);
 num2 = Number(num2);
 
-const resultado = num1 + num2;
+const resultado = num1* num2;
 
-alert(`O resultado é ${resultado}`);
+alert(`O resultado  ${resultado}`);
+alert(`Multiplicando ${num1} por ${num2} resulta em ${resultado}`)
