@@ -10,3 +10,4 @@ emagrecer = peso - (peso * 0.20)
 
 print("Seu peso ao engordar 15% seria de {:.1f}KG ao emagrecer 20% seria {:.1f}KG".format(
     engordar, emagrecer))
+
