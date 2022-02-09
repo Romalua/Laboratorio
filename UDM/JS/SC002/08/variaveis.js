@@ -1,9 +1,10 @@
-let varA = 'B'; //B
-let varB = 'C'; //C
-let varC = 'A'; //A
+let varA = 'A'; //B
+let varB = 'B'; //C
+let varC = 'C'; //A
 
+const varATemp = varA;
 varA = varB;
-varC = 
-
+varB = varC;
+varC = varATemp;
 
 console.log(varA, varB, varC);

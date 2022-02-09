@@ -1,10 +1,13 @@
 "use strict";
 
-var varA = 'B'; //B
+var varA = 'A'; //B
 
-var varB = 'C'; //C
+var varB = 'B'; //C
 
-var varC = 'A'; //A
+var varC = 'C'; //A
 
+var varATemp = varA;
 varA = varB;
-varC = console.log(varA, varB, varC);
+varB = varC;
+varC = varATemp;
+console.log(varA, varB, varC);
